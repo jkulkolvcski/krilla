@@ -726,12 +726,12 @@ checksum = "4f467dd6dccf739c208452f8014c75c18bb8301b050ad1cfb27153803edb0f51"
 [[package]]
 name = "hayro-ccitt"
 version = "0.3.0"
-source = "git+https://github.com/LaurenzV/hayro?rev=d8e24e29eda62581e1ea15497effb2a884fb1608#d8e24e29eda62581e1ea15497effb2a884fb1608"
+source = "git+https://github.com/LaurenzV/hayro?rev=a728f7cb6826c1e167973b8fd71867ebb4cf39af#a728f7cb6826c1e167973b8fd71867ebb4cf39af"
 
 [[package]]
 name = "hayro-jbig2"
 version = "0.3.0"
-source = "git+https://github.com/LaurenzV/hayro?rev=d8e24e29eda62581e1ea15497effb2a884fb1608#d8e24e29eda62581e1ea15497effb2a884fb1608"
+source = "git+https://github.com/LaurenzV/hayro?rev=a728f7cb6826c1e167973b8fd71867ebb4cf39af#a728f7cb6826c1e167973b8fd71867ebb4cf39af"
 dependencies = [
  "hayro-ccitt",
 ]
@@ -739,12 +739,12 @@ dependencies = [
 [[package]]
 name = "hayro-jpeg2000"
 version = "0.4.0"
-source = "git+https://github.com/LaurenzV/hayro?rev=d8e24e29eda62581e1ea15497effb2a884fb1608#d8e24e29eda62581e1ea15497effb2a884fb1608"
+source = "git+https://github.com/LaurenzV/hayro?rev=a728f7cb6826c1e167973b8fd71867ebb4cf39af#a728f7cb6826c1e167973b8fd71867ebb4cf39af"
 
 [[package]]
 name = "hayro-syntax"
 version = "0.7.2"
-source = "git+https://github.com/LaurenzV/hayro?rev=d8e24e29eda62581e1ea15497effb2a884fb1608#d8e24e29eda62581e1ea15497effb2a884fb1608"
+source = "git+https://github.com/LaurenzV/hayro?rev=a728f7cb6826c1e167973b8fd71867ebb4cf39af#a728f7cb6826c1e167973b8fd71867ebb4cf39af"
 dependencies = [
  "hayro-jbig2",
  "hayro-jpeg2000",
@@ -756,7 +756,7 @@ dependencies = [
 [[package]]
 name = "hayro-write"
 version = "0.7.0"
-source = "git+https://github.com/LaurenzV/hayro?rev=d8e24e29eda62581e1ea15497effb2a884fb1608#d8e24e29eda62581e1ea15497effb2a884fb1608"
+source = "git+https://github.com/LaurenzV/hayro?rev=a728f7cb6826c1e167973b8fd71867ebb4cf39af#a728f7cb6826c1e167973b8fd71867ebb4cf39af"
 dependencies = [
  "flate2",
  "hayro-syntax",
@@ -1337,8 +1337,7 @@ checksum = "487f2ccd1e17ce8c1bfab3a65c89525af41cfad4c8659021a1e9a2aacd73b89b"
 [[package]]
 name = "pdf-writer"
 version = "0.15.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f5e456864a7a304047bff84977dc6fb162bd956475d40ba50b2dcecaada7f753"
+source = "git+https://github.com/typst/pdf-writer?rev=fdf090125f1e7209fa630c4ca1f5f29910c87c93#fdf090125f1e7209fa630c4ca1f5f29910c87c93"
 dependencies = [
  "bitflags 2.11.1",
  "itoa",
